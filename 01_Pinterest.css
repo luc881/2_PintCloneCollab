@@ -91,10 +91,7 @@
 
 
 
-.card img:hover {
-    opacity: 0.5;
 
-}
 
 
 body {
@@ -139,3 +136,161 @@ body {
 .card_large {
     grid-row-end: span var(--card_large);
 }
+
+.card:hover > img{
+    opacity: 0.5;
+    cursor: zoom-in;
+}
+
+.btns {
+    position: relative;
+    top: -220px;
+    left: 120px;
+    background-color: #bd081d;
+    opacity: 0;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 12px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.card:hover > .btns {
+    background-color: #bd081d;
+    color: white;
+    opacity: 1;
+}
+
+.card:hover > .btns:hover {
+    background-color: #900617;
+}
+
+.btnm {
+    position: relative;
+    top: -290px;
+    left: 120px;
+    background-color: #bd081d;
+    opacity: 0;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 12px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.card:hover > .btnm {
+    background-color: #bd081d;
+    color: white;
+    opacity: 1;
+}
+
+.card:hover > .btnm:hover {
+    background-color: #900617;
+}
+
+.btnl {
+    position: relative;
+    top: -410px;
+    left: 120px;
+    background-color: #bd081d;
+    opacity: 0;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 12px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.card:hover > .btnl {
+    background-color: #bd081d;
+    color: white;
+    opacity: 1;
+}
+
+.card:hover > .btnl:hover {
+    background-color: #900617;
+}
+
+.btn1 {
+    position: relative;
+    top: -53px;
+    left: -88px;
+    opacity: 0;
+    color: black;
+    font-size: 15px;
+    padding: 5px 10px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius:999px;
+    text-align: center;
+}
+
+.card:hover > .btn1{
+    background-color: #eaeaea;
+    opacity: 1;
+}
+
+.card:hover > .btn1:hover{
+    background-color: white;
+}
+
+
+
+.btn2 {
+    position: relative;
+    top: -92px;
+    left: 145px;
+    opacity: 0;
+    color: black;
+    font-size: 15px;
+    padding: 2px 6px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius:999px;
+    text-align: center;
+}
+
+.card:hover > .btn2{
+    background-color: #eaeaea;
+    opacity: 1;
+}
+
+.card:hover > .btn2:hover{
+    background-color: white;
+}
+
+
+.btn3 {
+    position: relative;
+    top: -92px;
+    left: 150px;
+    opacity: 0;
+    color: black;
+    font-size: 15px;
+    padding: 2px 6px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius:999px;
+    text-align: center;
+}
+
+.card:hover > .btn3{
+    background-color: #eaeaea;
+    opacity: 1;
+}
+
+.card:hover > .btn3:hover{
+    background-color: white;
+}
+
+
+
