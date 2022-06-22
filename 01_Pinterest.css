@@ -1,0 +1,141 @@
+.top {
+    display: flex;
+    width: 100vw;
+    height: 80px;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffffff;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.titulo {
+    display: inline-block;
+    font-style: oblique;
+    color: red;
+    margin: 0 15px 0 30px;
+}
+
+.titulo img{
+    width: 30px;
+    height: 30px;
+}
+
+.home>button {
+    display: inline-block;
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    padding: 15px 16px;
+}
+
+.hoy>button {
+    display: inline-block;
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    padding: 15px 16px;
+    margin: 0 15px 0 0;
+}
+
+.izquierda {
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: blue
+}
+
+
+
+.search__bar {
+    display: flex;
+    align-items: center;
+    background-color: rgb(234, 234, 234);
+    height: 25px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 80vw;
+    margin: 0 auto;
+    max-width: 750px;
+}
+
+
+.search__bar input {
+    flex-grow: 1;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+
+.search__buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+:root {
+    --card_width: 250px;
+    --row_increment: 10px;
+    --card_border_radius: 16px;
+    --card_small: 26;
+    --card_medium: 33;
+    --card_large: 45;
+}
+
+
+
+.card img:hover {
+    opacity: 0.5;
+
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.pin_container {
+    margin: 75px 0 0 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, var(--card_width));
+    grid-auto-rows: var(--row_increment);
+    justify-content: center;
+
+    background-color: rgb(255, 255, 255);
+}
+
+.card {
+    padding: 0;
+    margin: 15px 10px;
+    border-radius: var(--card_border_radius);
+    background-color: black;
+}
+
+.card img{
+    border-radius: inherit;
+}
+
+.card_small {
+    grid-row-end: span var(--card_small);
+}
+
+.card_medium {
+    grid-row-end: span var(--card_medium);
+}
+
+.card_large {
+    grid-row-end: span var(--card_large);
+}
