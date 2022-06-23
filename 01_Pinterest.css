@@ -90,6 +90,30 @@
 }
 
 
+.btnb2 {
+    position: relative;
+    background-color: white;
+    top: 93vh;
+    right: 3vw;
+    opacity: 1;
+    color: black;
+    font-size: 15px;
+    padding: 15px 22px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius:999px;
+    text-align: center;
+    box-shadow: 0 0 16px rgb(211, 211, 211);
+}
+.btnb2 img{
+    width: 18px;
+}
+
+.btnb2:hover{
+    background-color: #eaeaea;
+    opacity: 1;
+} 
 
 
 
