@@ -12,11 +12,12 @@
     z-index: 1;
 }
 
+
 .titulo {
-    display: inline-block;
+    display: inline;
     font-style: oblique;
     color: red;
-    margin: 0 15px 0 30px;
+    margin: 0px 5px 0 5px;
 }
 
 .titulo img{
@@ -32,7 +33,7 @@
     font-size: 16px;
     padding: 15px 16px;
 }
-
+    
 .hoy>button {
     display: inline-block;
     background-color: black;
@@ -44,10 +45,14 @@
 }
 
 .izquierda {
+    display: flex;
+    color: rgb(119, 119, 119);
+    justify-content: space-evenly;
+    width: 1fr;
+}
+
+.material-symbols-outlined{
     display: inline;
-    font-size: 20px;
-    text-decoration: none;
-    color: blue;
 }
 
 
@@ -57,10 +62,10 @@
     align-items: center;
     background-color: rgb(234, 234, 234);
     height: 25px;
-    padding: 10px 20px;
+    padding: 10px 9px;
     border-radius: 999px;
-    width: 100vw;
-    margin: 0 auto;
+    width: 73vw;
+    margin: 0;
 }
 
 
@@ -70,6 +75,7 @@
     border: none;
     outline: none;
     background-color: inherit;
+    width: 73vw;
 }
 
 .search__buttons {
