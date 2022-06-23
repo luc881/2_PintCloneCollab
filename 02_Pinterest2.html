@@ -8,31 +8,34 @@
     <link rel="stylesheet" href="./02_Pinterest2.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <title>2</title>
+    <title>Pinterest</title>
 </head>
 
 <body>
     <div class="top">
-        <div class="titulo">
-            <img src="https://graffica.info/wp-content/uploads/2017/08/badgeRGB.png" alt="pinterestlogo">
-        </div>
-        <div class="home">
-            <button>Inicio</button>
-        </div>
-        <div class="hoy">
-            <button>Hoy</button>
+        <div class="derecha">
+            <div class="titulo">
+                <img src="https://graffica.info/wp-content/uploads/2017/08/badgeRGB.png" alt="pinterestlogo">
+            </div>
+            <button class="btninicio">Inicio</button>
+            <button class="btnhoy">Hoy</button>
         </div>
         <div class="search__bar">
             <span class="material-symbols-outlined"> search </span>
             <input type="text">
         </div>
+
         <div class="izquierda">
-            <span class="material-symbols-outlined"> notifications </span>
-            <span class="material-symbols-outlined"> chat </span>
+            <button class="btnz1"><img src="https://cdn0.iconfinder.com/data/icons/ui-16px-perfect-megapack-line/16/82_Add-512.png" alt="dots"></button>
+            <button class="btnz1"><img src="https://icons.veryicon.com/png/o/miscellaneous/ionicons-1/ios-notifications-5.png" alt="dots"></button>
+            <button class="btnz1"><img src="https://icons.veryicon.com/png/o/miscellaneous/utility/chat-121.png" alt="dots"></button>
+            <button class="btnz1"><img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" alt="dots"></button>
+            <button class="btnz1"><img src="http://cdn.onlinewebfonts.com/svg/img_144754.png" alt="dots"></button>
         </div>
+
         <a href="./01_Pinterest.html"> <button class="btnb1"><img src="./img/leftarrow.png" alt="share"></button></a>
         <button class="btnb2"><img src="https://pngimg.com/uploads/question_mark/question_mark_PNG6.png"
-            alt="dots"></button>
+                alt="dots"></button>
     </div>
 
     <div class="zoompin">
@@ -40,7 +43,8 @@
             <div class="zoomcard">
                 <img class="zoomimage" src="https://picsum.photos/500/800?random=1">
                 <button class="btnzi1">↗ Ver imagen</button>
-                <button class="btnzi2"><img src="https://cdn-icons-png.flaticon.com/512/68/68213.png" alt="zoom"></button>
+                <button class="btnzi2"><img src="https://cdn-icons-png.flaticon.com/512/68/68213.png"
+                        alt="zoom"></button>
             </div>
             <div class="zoominfo">
                 <div class="zoombar">
@@ -49,11 +53,11 @@
                                 alt="dots"></button>
                         <button class="btnz2"><img src="https://cdn-icons-png.flaticon.com/128/3580/3580382.png"
                                 alt="share"></button>
-                                <button class="btnz3"><img src="http://cdn.onlinewebfonts.com/svg/img_488341.png"
-                                    alt="dots"></button>
+                        <button class="btnz3"><img src="http://cdn.onlinewebfonts.com/svg/img_488341.png"
+                                alt="dots"></button>
                     </div>
-                        <button class="btnz4">Guardar</button>
-                    
+                    <button class="btnz4">Guardar</button>
+
                 </div>
 
                 <a class="zoomlink" href="#">getalink.com</a>
@@ -62,36 +66,46 @@
                     beatae dolorem ab error fuga, officia neque blanditiis? Voluptatibus soluta, aperiam sapiente
                     possimus eos commodi placeat nulla vel!</p>
 
-                    <div class="authorcont">
-                            <div class="authorsub0">
-                                <button class="btnz5"><p>A</p></button>
-                                <div class="authorsub">
-                                    <a href="#">Author Name</a>
-                                    <p>2.4M followers</p>
-                                </div>
-                            </div>                        
-                            <button class="btnz5"><p>Seguir</p></button>
+                <div class="authorcont">
+                    <div class="authorsub0">
+                        <button class="btnz5">
+                            <p>A</p>
+                        </button>
+                        <div class="authorsub">
+                            <a href="#">Author Name</a>
+                            <p>2.4M followers</p>
+                        </div>
                     </div>
+                    <button class="btnz5">
+                        <p>Seguir</p>
+                    </button>
+                </div>
 
-                    <div class="coment">
-                        <div class="comenttop">
-                            <p>Comentarios</p>
-                            <button class="btnz6"><img src="http://cdn.onlinewebfonts.com/svg/img_144754.png" alt="arrow"></button>
-                        </div>
-                        <div class="comentbot">
-                            <button class="btnz7"><p>J</p></button>
-                            <div class="search_bar2">
-                                <input type="text" value="Add a comment">
-                                <img src="https://i.pinimg.com/originals/f2/ef/c4/f2efc4755b197311e16a6567c2724414.png" alt="emoji">
-                            </div>
+                <div class="coment">
+                    <div class="comenttop">
+                        <p>Comentarios</p>
+                        <button class="btnz6"><img src="http://cdn.onlinewebfonts.com/svg/img_144754.png"
+                                alt="arrow"></button>
+                    </div>
+                    <div class="comentbot">
+                        <button class="btnz7">
+                            <p>J</p>
+                        </button>
+                        <div class="search_bar2">
+                            <input type="text" value="Add a comment">
+                            <img src="https://i.pinimg.com/originals/f2/ef/c4/f2efc4755b197311e16a6567c2724414.png"
+                                alt="emoji">
                         </div>
                     </div>
-                    <div class="subauthor">
-                        <button class="btnsa1"><p>S</p></button> 
-                        <a href="#">Subauthor</a>
-                        <p>ha guardado en</p>
-                        <a href="#">carpeta</a>
-                    </div>
+                </div>
+                <div class="subauthor">
+                    <button class="btnsa1">
+                        <p>S</p>
+                    </button>
+                    <a href="#">Subauthor</a>
+                    <p>ha guardado en</p>
+                    <a href="#">carpeta</a>
+                </div>
             </div>
         </div>
         <div class="text">
